@@ -3,13 +3,28 @@
     ["@babel/preset-env", {
       "modules": false,
       "targets": {
-        "browsers": "ie >= 11"
-      }
+        "chrome": "74"
+      },
+      "exclude": [
+        "transform-regenerator"
+      ]
     }]
   ],
   "env": {
     "test": {
-      "presets": [["@babel/preset-env"]]
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "targets": {
+              "node": "12"
+            },
+            "exclude": [
+              "transform-regenerator"
+            ]
+          }
+        ]
+      ]
     }
   }
 }
