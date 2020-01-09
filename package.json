@@ -1,6 +1,6 @@
 {
   "name": "vacillate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/vacillate.cjs.js",
   "module": "dist/vacillate.esm.js",
   "browser": "dist/vacillate.umd.js",
