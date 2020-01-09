@@ -1,6 +1,34 @@
 # vacillate
 
-See blog entry:
+See blog post: https://scottlnorvell.com/vacillate
+
+## Install
+```sh
+npm install vacillate
+# - OR -
+yarn add vacillate
+```
+
+## Command Line
+```sh
+> npx vacillate cookies cake "ice cream"
+cookies
+What I really meant was: ice cream
+Just kidding: cake
+No wait: cookies
+Just kidding: ice cream
+Actually: cake
+What I really meant was: cookies
+No wait: cake
+Just kidding: ice cream
+Actually: cookies
+What I really meant was: ice cream
+No wait: cake
+Actually: cookies
+cake! (vacillated 14 times)
+
+I choose: cake
+```
 
 ## Running tests
 
@@ -22,5 +50,5 @@ This will regenerate the build files each time a source file is changed and serv
 
 ### Previewing umd build in the browser
 
-If your package works in the browser, you can open `dev/index.html` to try it out.
+You can open `dev/index.html` to try it out.
 
